@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 header {
     background-color: gray;
     position: fixed;
@@ -8,8 +10,9 @@ header {
 }
 
 header h1 {
-    color: white;
+    color: black;
     text-align: center;
     line-height: 50px;
     margin: 0;
+    font-family: 'Julius Sans One', sans-serif;
 }
