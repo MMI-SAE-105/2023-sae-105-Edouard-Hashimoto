@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
 
 header {
-    background-color: gray;
+    background-color: #F5F5F5;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,4 +23,13 @@ header h1 {
     height: 48px;
     float: left;
     margin-top: 15px;
+    margin-left: 10px;
+}
+
+.menu {
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
 }
