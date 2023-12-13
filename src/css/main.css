@@ -45,7 +45,7 @@ header h1 {
     background-image: url(../../public/img/fond1.jpg);
     opacity: 0.3;
     position: absolute;
-    top: -40px;
+    top: -35px;
     left: 0;
     bottom: -40px;
     right: 0;
@@ -61,6 +61,7 @@ header h1 {
     text-align: center;
     opacity: 1;
 }
+
 .txt-ito2 {
     font-family: 'Julius Sans One', sans-serif;
     font-size: 70px;
@@ -69,4 +70,10 @@ header h1 {
     line-height: 100%;
     text-align: center;
     opacity: 1;
+}
+
+.txt1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    margin-left: 10px;
 }
