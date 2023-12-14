@@ -4,16 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/architect.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="../css/architect.css">
     <title>Document</title>
 </head>
 
-<body>
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
     <header>
         <img class="logo" src="../../public/img/logo.png" alt="logo">
-        <img class="menu" src="../../public/img/menu.svg" alt="menu">
-        <h1>Tôyô Ito</h1>
+        <img class="menu" src="../../public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
+            </div>
+            <h1>Tôyô Ito</h1>
     </header>
     <div class="partie1">
         <p class="txt">Itô Tôyô: Un architecte visionnaire</p>
@@ -40,7 +48,8 @@
         <p class="txt_footer1"><img class="icone_footer" src="../../public/img/envelope.png" alt="mail">
             edouard.hashimoto@edu.univ-fcomte.fr</p>
         <p><img class="icone_footer2" src="../../public/img/logommi.png" alt=""><img class="icone_footer2"
-                src="../../public/img/twitter.png" alt=""><img class="icone_footer2" src="../../public/img/insta.png" alt=""></p>
+                src="../../public/img/twitter.png" alt=""><img class="icone_footer2" src="../../public/img/insta.png"
+                alt=""></p>
     </footer>
 </body>
 
