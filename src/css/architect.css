@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+
 header {
     position: absolute;
     background-color: #F5F5F5;
@@ -14,4 +18,21 @@ header h1 {
     text-align: center;
     margin-top: 20px;
     font-family: 'Julius Sans One', sans-serif;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.menu {
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
 }
