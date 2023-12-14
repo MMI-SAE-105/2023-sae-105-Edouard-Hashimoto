@@ -4,15 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/main.css">
     <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="src/css/main.css">
     <title>SAÉ-106</title>
 </head>
 
-<body>
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
     <header>
         <img class="logo" src="public/img/logo.png" alt="logo">
-        <a href="src/Autres pages/menu.html"><img class="menu" src="public/img/menu.svg" alt="menu"></a>
+        <img class="menu1" src="public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu1" src="public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu"><a href="src/Autres pages/Ito.html" >Profil</a></p>
+            </div>
         <h1>Acceuil</h1>
         <div class="partie1">
             <p class="txt-ito">L'architect <br> japonais</p>
@@ -44,9 +51,11 @@
         </div>
         <div class="parie3">
             <p class="txt1">Tôyô Itô</p>
-            <a href="src/Autres pages/Ito.html"><p class="txt4"><img class="img_accueil" src="public/img/Toyo1.webp" alt="">Toyō Itō est un architecte
-                japonais connu
-                pour avoir créé l'architecture dite conceptuelle.</p></a>
+            <a href="src/Autres pages/Ito.html">
+                <p class="txt4"><img class="img_accueil" src="public/img/Toyo1.webp" alt="">Toyō Itō est un architecte
+                    japonais connu
+                    pour avoir créé l'architecture dite conceptuelle.</p>
+            </a>
             <img class="ligne" src="public/img/ligne horizontale.png" alt="">
             <p class="txt1">Ses œuvres</p>
             <img class="img_accueil" src="public/img/batiment1.jpg" alt="">
@@ -61,7 +70,8 @@
             <p class="txt_footer1"><img class="icone_footer" src="public/img/envelope.png" alt="mail">
                 edouard.hashimoto@edu.univ-fcomte.fr</p>
             <p><img class="icone_footer2" src="public/img/logommi.png" alt=""><img class="icone_footer2"
-                    src="public/img/twitter.png" alt=""><img class="icone_footer2" src="public/img/insta.png" alt=""></p>
+                    src="public/img/twitter.png" alt=""><img class="icone_footer2" src="public/img/insta.png" alt="">
+            </p>
         </footer>
     </header>
 </body>
