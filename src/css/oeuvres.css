@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -20,6 +24,8 @@ img {
     width: 100%;
     scroll-snap-align: start;
 }
+
+
 
 .carrousel_ecran figure {
     margin: 0;
@@ -87,9 +93,7 @@ img {
     font-size: 50px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+
 
 header {
     position: absolute;
@@ -136,3 +140,9 @@ header h1 {
     opacity: 1;
     margin-top: 100px;
 }
+
+.img_c {
+    width: 700px;
+    height: 400px;
+}
+
