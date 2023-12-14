@@ -93,3 +93,10 @@ header h1 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.txt2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
