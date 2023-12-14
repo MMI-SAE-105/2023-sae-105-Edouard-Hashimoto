@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carrousel_parent-ecrans {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+}
+
+.carrousel_ecran {
+    flex: none;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+.carrousel_ecran figure {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carrousel {
+    margin-top: 100px;
+    position: relative;
+}
+
+.carrousel_btn {
+    position: absolute;
+    top: 50%;
+    top: calc(min(500px, 100vw) / 16 * 9 / 2 + 1rem);
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    border: none;
+    display: grid;
+    place-content: center;
+    color: #fff;
+}
+
+.carrousel_btn-avant {
+    left: 0;
+}
+
+.carrousel_btn-apres {
+    right: 0;
+}
+
+.caroussel_liste-liens {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+}
+
+.actif {
+    color: black;
+    background-color: #c2c3c1;
+}
+
+.menu-open-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../public/img/arriere_plan.png);
+    background-size: cover;
+    z-index: 9999;
+}
+
+.txt-menu {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@700&display=swap');
+
+header {
+    position: absolute;
+    background-color: #F5F5F5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    margin-top: -5px;
+}
+
+header h1 {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+
+.menu {
+    width: 48px;
+    height: 48px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.txt {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-align: left;
+    opacity: 1;
+    margin-top: 100px;
+}
