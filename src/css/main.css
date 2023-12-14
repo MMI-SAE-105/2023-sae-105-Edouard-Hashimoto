@@ -125,7 +125,7 @@ header h1 {
 
 .img_accueil {
     height: 200px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 .txt4 {
@@ -133,4 +133,5 @@ header h1 {
     font-size: 15px;
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
