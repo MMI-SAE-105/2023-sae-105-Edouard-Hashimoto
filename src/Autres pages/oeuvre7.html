@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="../css/oeuvre7.css">
+    <title>Document</title>
+</head>
+
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
+    <header>
+        <a href="../../index.html"><img class="logo" src="../../public/img/logo.png" alt="logo"></a>
+        <img class="menu" src="../../public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/oeuvres.html">Réalisations</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Réserver</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Frise</a></p>
+                <p class="txt-menu1"><a href="../../index.html">Accueil</a></p>
+                <img class="logo3" src="../../public/img/logo2.png" alt="">
+            </div>
+            <h1>Ses oeuvres</h1>
+    </header>
+    <div class="partie1">
+        <p class="txt">Stade national de Kaohsiung</p>
+        <img class="img1" src="../../public/img/sd1.jpg" alt="">
+        <p class="txt2">Le stade national de Kaohsiung est un stade omnisports situé à Kaohsiung, à Taïwan. Il a été
+            conçu par l’architecte
+            japonais Toyō Ito et inauguré en 2009 pour accueillir les Jeux mondiaux de 2009. Il est surnommé le stade
+            du Dragon
+            en raison de sa forme en semi-spirale qui rappelle le squelette d’un dragon. Il peut accueillir
+            jusqu’à 55 000
+            spectateurs et dispose d’un système d’énergie solaire qui lui permet de fonctionner sans apport extérieur
+            d’électricité.</p>
+        <img class="img1" src="../../public/img/sd2.webp" alt="">
+        <p class="txt2">Le stade national de Kaohsiung est utilisé principalement pour les matchs de football, mais il peut aussi accueillir
+        d’autres événements sportifs et culturels. Il a été le lieu des cérémonies d’ouverture et de clôture des Jeux mondiaux
+        de 2009, ainsi que des épreuves de rugby à sept et d’ultimate. Il a également accueilli des concerts, des spectacles et
+        des manifestations publiques. Le stade national de Kaohsiung est un symbole du développement sportif et culturel de
+        Taïwan, ainsi qu’un exemple d’architecture innovante et écologique.</p>
+    </div>
+
+
+
+    <footer>
+        <img class="logo2" src="../../public/img/logo2.png" alt="">
+        <p class="txt_footer2"><img class="icone_footer" src="../../public/img/appel.png" alt="contact"> XX-XX-XX-XX-XX
+        </p>
+        <p class="txt_footer1"><img class="icone_footer" src="../../public/img/envelope.png" alt="mail">
+            edouard.hashimoto@edu.univ-fcomte.fr</p>
+        <p><img class="icone_footer2" src="../../public/img/logommi.png" alt=""><img class="icone_footer2"
+                src="../../public/img/twitter.png" alt=""><img class="icone_footer2" src="../../public/img/insta.png"
+                alt=""></p>
+    </footer>
+</body>
+
+</html>
