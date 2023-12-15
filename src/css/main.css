@@ -61,6 +61,7 @@ header h1 {
     line-height: 100%;
     text-align: center;
     opacity: 1;
+    margin-top: 80px;
 }
 
 .txt-ito2 {
@@ -207,4 +208,11 @@ a {
     width: 48px;
     height: 48px;
     margin-bottom: -60px;
+}
+
+.eng {
+    width: 30px;
+    position: absolute;
+    top: -30px;
+    right: 10px;
 }
