@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="../css/oeuvre1.css">
     <title>Document</title>
 </head>
+
 <body x-data="{ openMenu: false }">
     <div x-show="openMenu" class="menu-open-background"></div>
     <header>
@@ -14,7 +17,7 @@
 
         <body x-data="{ openMenu: false }">
             <div x-show="openMenu" class="menu-open-background">
-                <img class="menu1" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <img class="menu" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
                 <p class="txt-menu">Menu</p>
                 <p class="txt-menu1"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
                 <p class="txt-menu1"><a href="../../src/Autres pages/oeuvres.html">Réalisations</a></p>
@@ -25,5 +28,37 @@
             </div>
             <h1>Ses oeuvres</h1>
     </header>
+    <div class="partie1">
+        <p class="txt">Médiathèque de Sendai</p>
+        <p class="txt3">La Médiathèque de Sendai: Un espace innovant et polyvalent.</p>
+        <img class="img1" src="../../public/img/sendai4.jpg" alt="">
+        <p class="txt2">La Médiathèque de Sendai est un bâtiment public situé
+            à Sendai, au Japon, qui abrite une bibliothèque, une
+            galerie d’art, un cinéma, un studio de télévision et
+            d’autres équipements culturels. Elle a été conçue par
+            l’architecte Itō Toyo et achevée en 2001.</p>
+        <img class="img1" src="../../public/img/sendai6.jpg" alt="">
+        <p class="txt2">La Médiathèque de Sendai est un lieu où les
+            différentes formes de médias, comme les livres,
+            les images, les sons, les vidéos, etc., se rencontrent
+            et se mêlent. Elle propose des activités variées,
+            comme des expositions, des projections, des ateliers,
+            des conférences, etc., qui visent à stimuler la
+            créativité et la communication des visiteurs.</p>
+    </div>
+
+
+
+    <footer>
+        <img class="logo2" src="../../public/img/logo2.png" alt="">
+        <p class="txt_footer2"><img class="icone_footer" src="../../public/img/appel.png" alt="contact"> XX-XX-XX-XX-XX
+        </p>
+        <p class="txt_footer1"><img class="icone_footer" src="../../public/img/envelope.png" alt="mail">
+            edouard.hashimoto@edu.univ-fcomte.fr</p>
+        <p><img class="icone_footer2" src="../../public/img/logommi.png" alt=""><img class="icone_footer2"
+                src="../../public/img/twitter.png" alt=""><img class="icone_footer2" src="../../public/img/insta.png"
+                alt=""></p>
+    </footer>
 </body>
+
 </html>
