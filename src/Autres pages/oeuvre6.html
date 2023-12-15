@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="../css/oeuvre6.css">
+    <title>Document</title>
+</head>
+
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
+    <header>
+        <a href="../../index.html"><img class="logo" src="../../public/img/logo.png" alt="logo"></a>
+        <img class="menu" src="../../public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/oeuvres.html">Réalisations</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Réserver</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Frise</a></p>
+                <p class="txt-menu1"><a href="../../index.html">Accueil</a></p>
+                <img class="logo3" src="../../public/img/logo2.png" alt="">
+            </div>
+            <h1>Ses oeuvres</h1>
+    </header>
+    <div class="partie1">
+        <p class="txt">Tama Art University Library</p>
+        <img class="img1" src="../../public/img/tama1.jpg" alt="">
+        <p class="txt2">La bibliothèque de l’université d’art de Tama est composée de deux bibliothèques situées à
+            Tokyo, au Japon : une sur le
+            campus de Hachioji et l’autre sur le campus de Kaminoge. Ces bibliothèques ont été conçues par l’architecte
+            japonais
+            Toyo Ito, qui a créé un espace ouvert et dynamique où les étudiants et les enseignants peuvent découvrir
+            leur style
+            d’interaction avec les livres et les médias audiovisuels.</p>
+        <img class="img1" src="../../public/img/tama2.jpg" alt="">
+        <p class="txt2">Les deux bibliothèques sont ouvertes au public prochainement afin de se rapprocher davantage de
+            la communauté locale.
+            Vous pouvez accéder à leur inventaire en ligne via OPAC (catalogue public en ligne) ou consulter une partie
+            des
+            collections Takiguchi et Kitazono sur Internet.</p>
+    </div>
+
+
+
+    <footer>
+        <img class="logo2" src="../../public/img/logo2.png" alt="">
+        <p class="txt_footer2"><img class="icone_footer" src="../../public/img/appel.png" alt="contact"> XX-XX-XX-XX-XX
+        </p>
+        <p class="txt_footer1"><img class="icone_footer" src="../../public/img/envelope.png" alt="mail">
+            edouard.hashimoto@edu.univ-fcomte.fr</p>
+        <p><img class="icone_footer2" src="../../public/img/logommi.png" alt=""><img class="icone_footer2"
+                src="../../public/img/twitter.png" alt=""><img class="icone_footer2" src="../../public/img/insta.png"
+                alt=""></p>
+    </footer>
+</body>
+
+</html>
