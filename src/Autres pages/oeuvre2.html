@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="../css/oeuvre1.css">
+    <title>Document</title>
+</head>
+
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
+    <header>
+        <a href="../../index.html"><img class="logo" src="../../public/img/logo.png" alt="logo"></a>
+        <img class="menu" src="../../public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/oeuvres.html">Réalisations</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Réserver</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Frise</a></p>
+                <p class="txt-menu1"><a href="../../index.html">Accueil</a></p>
+                <img class="logo3" src="../../public/img/logo2.png" alt="">
+            </div>
+            <h1>Ses oeuvres</h1>
+    </header>
+    <div class="partie1">
+        <p class="txt">Stade Olypique Tokyo</p>
+        <img class="img1" src="../../public/img/stade3.jpg" alt="">
+        <p class="txt2">Le stade national du Japon, ou Nouveau stade national pendant sa phase de construction, est un
+            stade multi-fonctions
+            situé à Kasumigaoka, dans l’arrondissement de Shinjuku à Tokyo. Il a été inauguré en décembre 2019 et peut
+            accueillir
+            jusqu’à 68 000 spectateurs.</p>
+        <img class="img1" src="../../public/img/stade2.webp" alt="">
+        <p class="txt2">Le stade national du Japon est le principal lieu d’accueil des cérémonies d’ouverture et de
+            clôture des Jeux olympiques
+            et paralympiques de Tokyo 2020. Il a également accueilli plusieurs événements sportifs et culturels, tels
+            que la Coupe
+            du monde de rugby à XV 2019, le concert mondial de la chanteuse Taylor Swift en 2019 ou encore le spectacle
+            musical «
+            The Greatest Showman » en 2020.</p>
+        <p class="txt2">Il est composé de trois parties principales : le toit circulaire qui abrite les tribunes et les
+            vestiaires, le corps
+            rectangulaire qui contient les espaces techniques et les logements des joueurs, et la base triangulaire qui
+            renvoie vers
+            le centre-ville.</p>
+    </div>
+
+
+
+    <footer>
+        <img class="logo2" src="../../public/img/logo2.png" alt="">
+        <p class="txt_footer2"><img class="icone_footer" src="../../public/img/appel.png" alt="contact"> XX-XX-XX-XX-XX
+        </p>
+        <p class="txt_footer1"><img class="icone_footer" src="../../public/img/envelope.png" alt="mail">
+            edouard.hashimoto@edu.univ-fcomte.fr</p>
+        <p><img class="icone_footer2" src="../../public/img/logommi.png" alt=""><img class="icone_footer2"
+                src="../../public/img/twitter.png" alt=""><img class="icone_footer2" src="../../public/img/insta.png"
+                alt=""></p>
+    </footer>
+</body>
+
+</html>
