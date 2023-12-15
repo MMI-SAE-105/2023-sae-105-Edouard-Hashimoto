@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="../css/homepage.css">
+    <title>Homepage</title>
+</head>
+
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
+    <header>
+        <img class="logo" src="../../public/img/logo.png" alt="logo">
+        <img class="menu1" src="../../public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu1" src="public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/oeuvres.html">Works</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/billeterie.html">Ticketing</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Frise.html">Timeline</a></p>
+                <p class="txt-menu1"><a href="../../index.html">Homepage</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Contact.html">Contact</a></p>
+                <img class="logo3" src="../../public/img/logo2.png" alt="">
+            </div>
+            <h1>Acceuil</h1>
+            <div class="partie1">
+                <a href="../../index.html"><img class="eng" src="../../public/img/fr.png" alt=""></a>
+                <p class="txt-ito">the japanese <br> architect</p>
+                <p class="txt-ito2"> Tôyô Itô</p>
+            </div>
+            <div class="partie2">
+                <p class="txt1">Exhibition <br> "Tradition and <br> modernity"</p>
+                <p class="txt2"><img class="icone_accueil" src="../../public/img/calendrier.svg" alt="calendrier">Dates
+                    :</p>
+                <p class="txt3">April 13 to June 23, 2023</p>
+                <img class="ligne" src="../../public/img/ligne horizontale.png" alt="">
+                <p class="txt2"><img class="icone_accueil" src="../../public/img/map.svg" alt="lieu">Place :</p>
+                <p class="txt3">Fondation Cartier, 261 Bd Raspail 75014 Paris</p>
+                <img class="ligne" src="../../public/img/ligne horizontale.png" alt="">
+                <p class="txt2"><img class="icone_accueil" src="../../public/img/horloge.svg" alt="calendrier">Opening
+                    hours :
+                </p>
+                <p class="txt3">Every day from 11a.m. to 8p.m., except Monday. <br>Nocturnal on Tuesday, until 10p.m.
+                    <br>The
+                    Closure of rooms begins at 7:45p.m.
+                </p>
+                <img class="ligne" src="../../public/img/ligne horizontale.png" alt="">
+                <p class="txt2"><img class="ticket" src="../../public/img/ticket.svg" alt="lieu">Prices :</p>
+                <p class="txt3">Plein tarif = 11€ <br>
+                    Reduced price = €7.50 <br>
+                    Reduction 13 - 25 years = 5€ <br>
+                    Fondation Cartier Pass = 18€ - 50€ <br>
+                    Under 13 years old, Annual pass, <br>
+                    Icom card, press card, disability card <br>
+                    Fondation Cartier Pass, Students = Free</p>
+                <button class="btn-reserver">Book</button>
+                <img class="ligne" src="../../public/img/ligne horizontale.png" alt="">
+            </div>
+            <div class="parie3">
+                <p class="txt1">Tôyô Itô</p>
+                <a href="../../src/Autres pages/Ito.html">
+                    <p class="txt4"><img class="img_accueil" src="../../public/img/Toyo1.webp" alt="">Toyō Itō is a
+                        architectfamous japanese for having created the so-called conceptual architecture.</p>
+                </a>
+                <img class="ligne" src="../../public/img/ligne horizontale.png" alt="">
+                <p class="txt1">Ses œuvres</p>
+                <img class="img_accueil" src="../../public/img/batiment1.jpg" alt="">
+                <p class="txt4">Ito Toyo creates buildings
+                unique and impressive. His works are often inspired by nature, culture and
+                technology. <br>See the other buildings.</p>
+                <a href="../../src/Autres pages/page404.html">
+                    <p class="txt4">Page 404</p>
+                </a>
+            </div>
+            <footer>
+                <img class="logo2" src="../../public/img/logo2.png" alt="">
+                <p class="txt_footer2"><img class="icone_footer" src="../../public/img/appel.png" alt="contact">
+                    XX-XX-XX-XX-XX
+                </p>
+                <p class="txt_footer1"><img class="icone_footer" src="../../public/img/envelope.png" alt="mail">
+                    edouard.hashimoto@edu.univ-fcomte.fr</p>
+                <p><img class="icone_footer2" src="../../public/img/logommi.png" alt=""><img class="icone_footer2"
+                        src="../../public/img/twitter.png" alt=""><img class="icone_footer2"
+                        src="../../public/img/insta.png" alt="">
+                </p>
+            </footer>
+    </header>
+</body>
+
+</html>
