@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <link rel="stylesheet" href="../css/oeuvre8.css">
+    <title>Document</title>
+</head>
+
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
+    <header>
+        <a href="../../index.html"><img class="logo" src="../../public/img/logo.png" alt="logo"></a>
+        <img class="menu" src="../../public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/oeuvres.html">Réalisations</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Réserver</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Frise</a></p>
+                <p class="txt-menu1"><a href="../../index.html">Accueil</a></p>
+                <img class="logo3" src="../../public/img/logo2.png" alt="">
+            </div>
+            <h1>Ses oeuvres</h1>
+    </header>
+    <div class="partie1">
+        <p class="txt">Matsumoto performing arts centre</p>
+        <img class="img1" src="../../public/img/mat1.jpg" alt="">
+        <p class="txt2">Le centre des arts Matsumoto est un centre culturel situé à Matsumoto, au Japon. Il a été conçu
+            par l’architecte
+            japonais Toyō Ito et inauguré en 2004 pour accueillir les performances artistiques de tous les types,
+            qu’elles soient
+            traditionnelles ou contemporaines. Il dispose de trois salles principales : la Grande salle, une salle
+            convertible
+            pouvant accueillir 750 à 1800 spectateurs ; la Petite salle avec 288 places ; et le Théâtre expérimental,
+            avec 360
+            places.</p>
+        <img class="img1" src="../../public/img/mat2.webp" alt="">
+        <p class="txt2">Le centre des arts Matsumoto est non seulement équipé pour servir de lieu de spectacle de pointe, mais il est également
+        adapté pour différents types d’événements, tels que les conférences et les conventions. En tant que nouveau pôle
+        culturel à Matsumoto, il offre la possibilité d’apprécier une diversité d’arts du spectacle, tout en soutenant les
+        activités culturelles et artistiques locales et en facilitant le dialogue, l’échange et la richesse culturelle dans la
+        communauté.</p>
+        <p class="txt2">Le centre des arts Matsumoto accueille promeut également les
+        arts du spectacle locaux et les compagnies de théâtre. Il organise régulièrement des événements spéciaux, tels que des
+        concerts, des spectacles et des manifestations publiques. Le centre des arts Matsumoto est un symbole du développement
+        culturel et artistique de Matsumoto, ainsi qu’un exemple d’architecture innovante et écologique.</p>
+    </div>
+
+
+
+    <footer>
+        <img class="logo2" src="../../public/img/logo2.png" alt="">
+        <p class="txt_footer2"><img class="icone_footer" src="../../public/img/appel.png" alt="contact"> XX-XX-XX-XX-XX
+        </p>
+        <p class="txt_footer1"><img class="icone_footer" src="../../public/img/envelope.png" alt="mail">
+            edouard.hashimoto@edu.univ-fcomte.fr</p>
+        <p><img class="icone_footer2" src="../../public/img/logommi.png" alt=""><img class="icone_footer2"
+                src="../../public/img/twitter.png" alt=""><img class="icone_footer2" src="../../public/img/insta.png"
+                alt=""></p>
+    </footer>
+</body>
+
+</html>
