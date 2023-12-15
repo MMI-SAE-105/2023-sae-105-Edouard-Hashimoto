@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/oeuvre1.css">
+    <title>Document</title>
+</head>
+<body x-data="{ openMenu: false }">
+    <div x-show="openMenu" class="menu-open-background"></div>
+    <header>
+        <a href="../../index.html"><img class="logo" src="../../public/img/logo.png" alt="logo"></a>
+        <img class="menu" src="../../public/img/menu.svg" alt="menu" x-on:click="openMenu = !openMenu">
+
+        <body x-data="{ openMenu: false }">
+            <div x-show="openMenu" class="menu-open-background">
+                <img class="menu1" src="../../public/img/croix.svg" alt="croix" x-on:click="openMenu = !openMenu">
+                <p class="txt-menu">Menu</p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/Ito.html">Profil</a></p>
+                <p class="txt-menu1"><a href="../../src/Autres pages/oeuvres.html">Réalisations</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Réserver</a></p>
+                <p class="txt-menu1"><a href="src/Autres pages/oeuvres.html">Frise</a></p>
+                <p class="txt-menu1"><a href="../../index.html">Accueil</a></p>
+                <img class="logo3" src="../../public/img/logo2.png" alt="">
+            </div>
+            <h1>Ses oeuvres</h1>
+    </header>
+</body>
+</html>
